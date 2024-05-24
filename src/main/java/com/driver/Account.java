@@ -20,7 +20,7 @@ public class Account {
 //        }
         if(this.balance >= amount){
             this.balance -= amount;
-            receiveMoney(amount);
+            receiver.receiveMoney(amount);
         }
 
     }
